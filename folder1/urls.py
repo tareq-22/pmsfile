@@ -13,7 +13,6 @@ urlpatterns = [
     path('change-password', views.change_password, name='change-password'),
     path('', include('django.contrib.auth.urls')),
     path('password-reset/', auth_views.PasswordResetView.as_view(
-        form_class=forms.UserPasswordResetForm),name='password-reset'),
     path('add_user', views.add_user, name='add_user'),
     path('edit_user/<int:id>', views.edit_user, name='edit_user')
 ]
