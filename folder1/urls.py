@@ -15,4 +15,6 @@ urlpatterns = [
     path('password-reset/', auth_views.PasswordResetView.as_view(
     path('add_user', views.add_user, name='add_user'),
     path('edit_user/<int:id>', views.edit_user, name='edit_user')
+        gfgf
+        ffgdfd
 ]
